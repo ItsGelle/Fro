@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/vertical.css">
+    <title>Document</title>
+    <style media="screen">
+        html {
+            overflow-y: hidden;
+        }
+
+        main {
+            width: 500vw;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+        section {
+            box-sizing: border-box;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        section img {
+            max-width: 100%;
+            margin: 1em 0;
+
+        }
+
+        #groen {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <ul>
+        <li><a href="#rood">rood</a></li>
+        <li><a href="#groen">groen</a></li>
+        <li><a href="#blauw">blauw</a></li>
+        <li><a href="#oranje">oranje</a></li>
+        <li><a href="#geel">geel</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="rood">
+        <h2>Rood horizontaal</h2>
+        <p>Dit is de rode pagina.</p> <br>
+        Een link naar <a href="index.html">de vertikale versie</a>
+    </section>
+
+    <section id="groen">
+        <h2>Groen</h2>
+        <p>Dit is de groene pagina.</p>
+        <img src="https://images.pexels.com/photos/9198/nature-sky-twilight-grass-9198.jpg?cs=srgb&dl=clouds-eco-environment-9198.jpg&fm=jpg" alt="Boom1">
+        <img src="https://images.pexels.com/photos/4258/wood-nature-leaves-tree.jpg?cs=srgb&dl=bark-leaves-maple-4258.jpg&fm=jpg" alt="Boom2">
+        <img src="https://images.pexels.com/photos/56875/tree-dawn-nature-bucovina-56875.jpeg?cs=srgb&dl=campulung-countryside-dawn-56875.jpg&fm=jpg" alt="Boom3">
+    </section>
+
+    <section id="blauw">
+        <h2>Blauw</h2>
+        <p>Dit is de blauwe pagina.</p>
+    </section>
+
+    <section id="oranje">
+        <h2>Oranje</h2>
+        <p>Dit is de oranje pagina.</p>
+    </section>
+
+    <section id="geel">
+        <h2>Geel</h2>
+        <p>Dit is de gele pagina.</p>
+    </section>
+</main>
+</body>
+</html>
